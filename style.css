@@ -1,0 +1,57 @@
+/* Styling a basic website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: bisque;
+    color: brown;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: azure;
+}
+
+.page {
+    background-image: url(https://th.bing.com/th/id/R.24c635f4ff799bbc0cb9fd3fa8a2c6b7?rik=HbDXrKlrk11uvw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f5%2f8%2fe%2f1444336-vertical-white-background-wallpaper-images-1920x1200-for-ios.jpg&ehk=f1DRocbLkfmMAJBuutm6dN4fIZxZvXi2BcIm%2fzJXqSA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    color: antiquewhite;
+    text-align: center;
+    padding: 100px  0;
+}
+
+.features {
+    background-color: rgb(179, 187, 194);
+    padding: 60px 0;
+}
+
+.feature {
+    background-color: azure;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px 0;
+}
